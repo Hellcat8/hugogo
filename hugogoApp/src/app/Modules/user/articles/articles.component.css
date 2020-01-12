@@ -1,0 +1,46 @@
+.article-block {
+    position: relative;
+    background: rgb(236, 236, 236);
+    margin : 25px auto;
+    height: 200px;
+    max-width: 1200px;
+    box-shadow: 5px 5px 5px lightslategrey;
+}
+
+.article-block:hover{
+    position: relative;
+    background: rgb(236, 236, 236);
+    margin : 25px auto;
+    height: 200px;
+    max-width: 1230px;
+    box-shadow: 5px 5px 5px lightslategrey;
+}
+
+.article-background {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.bg1 {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2
+}
+
+.bg2{
+    background-color: lightgray;
+    margin-top: 150px;
+    opacity: 0.3;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: absolute
+}

@@ -1,0 +1,14 @@
+
+
+<div *ngFor="let article of articles" class="container-fluid">
+  <div class="article-block">
+    <div style="background-image:url('assets/img/musculation.jpg');" class="bg1">
+    </div>
+    <div class="bg2">
+    </div>
+    <div style="position: relative; padding-top: 155px;">
+      <span style="color:white; z-index: 2;position: relative; font-weight: bold; font-size: 25px">{{ article.title }} : </span>
+      <span style="color:white; z-index: 2;position: relative; font-weight: bold; font-size: 20px" >{{ article.shortDecr }}</span>
+    </div>
+  </div>
+</div>
